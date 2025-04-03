@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_settings",
+  "info": {
+    "singularName": "global-setting",
+    "pluralName": "global-settings",
+    "displayName": "Global Settings"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "SiteName": {
+      "type": "string",
+      "default": "Site Name"
+    },
+    "SiteDescription": {
+      "type": "string"
+    },
+    "ContactEmail": {
+      "type": "email"
+    },
+    "PhoneNumber": {
+      "type": "integer"
+    },
+    "SocialMediaLinks": {
+      "type": "json"
+    },
+    "FooterText": {
+      "type": "blocks"
+    }
+  }
+}

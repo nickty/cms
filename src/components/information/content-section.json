@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_information_content_sections",
+  "info": {
+    "displayName": "Content Section"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "blocks"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "ImagePosition": {
+      "type": "enumeration",
+      "enum": [
+        "Left",
+        "Right"
+      ]
+    },
+    "BackgroundColor": {
+      "type": "string"
+    }
+  }
+}

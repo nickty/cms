@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_information_feature_sections",
+  "info": {
+    "displayName": "Feature Section"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "Features": {
+      "displayName": "Features",
+      "type": "component",
+      "repeatable": true,
+      "component": "information.features"
+    }
+  }
+}
